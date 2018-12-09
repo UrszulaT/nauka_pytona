@@ -8,3 +8,11 @@ for s in kawa:
 
 for idx in range( len(kawa)):
     print("idx: " + " : " + kawa[idx])
+
+print(",".join(kawa))
+
+arr = "a,b,c,d,e" .split(',')
+print (arr)
+
+for idx in range ( len(kawa) ):
+    print("idx: " + str(idx) + ":" + kawa[idx])
